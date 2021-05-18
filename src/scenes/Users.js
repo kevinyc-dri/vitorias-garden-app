@@ -24,9 +24,9 @@ function Users() {
   }
 
   return (
-    <div>
+    <div className="container">
       <ul class="collection with-header">
-        <h1>this is users</h1>
+        <h1>Users</h1>
         {allUsers && allUsers.map((user) => {
           return (
             <li class="collection-item">
