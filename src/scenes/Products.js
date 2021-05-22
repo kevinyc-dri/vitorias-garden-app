@@ -26,7 +26,7 @@ function Products() {
   return (
     <div className="container custom-container">
       <ul class="collection with-header">
-        <h4>Prodcuts</h4>
+        <h4>Products</h4>
         {allProducts && allProducts.map((product) => {
           return (
             <li class="collection-item">
