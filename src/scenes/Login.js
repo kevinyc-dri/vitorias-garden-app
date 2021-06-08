@@ -2,8 +2,8 @@ import React from 'react'
 
 function Login() {
   return (
-    <div className="container custom-container">
-      <p>Homepage - Login</p>
+    <div className="container">
+      <h1>Vitoria's Garden</h1>
     </div>
   )
 }

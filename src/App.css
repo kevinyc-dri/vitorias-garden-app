@@ -1,15 +1,16 @@
 @import 'materialize-css';
 
-footer {
-  bottom: 0;
-  right: 0;
-  left: 0;
+body {
+	display: flex;
+	min-height: 100vh !important;
+	flex-direction: column;
 }
 
 .custom-container {
-  height: 100%;
-  padding: 5rem 0;
+	height: 100%;
+	padding: 5rem 0;
 }
 
-
-    
+.container {
+	height: 100%;
+}

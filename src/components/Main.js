@@ -4,8 +4,8 @@ import { Button } from 'react-materialize';
 function Main() {
   return (
     <main className="container">
-      <h1>clean baby react app</h1>
-      <button>simple button</button>
+      <p>Clean and quick React App</p>
+      <button>Simple Button</button>
       <Button>materialized</Button>
     </main>
   )

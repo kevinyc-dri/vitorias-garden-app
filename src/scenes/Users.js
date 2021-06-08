@@ -26,7 +26,6 @@ function Users() {
   return (
     <div className="container custom-container">
       <ul class="collection with-header">
-        <h4>It was Users - First Name</h4>
         {allUsers && allUsers.map((user) => {
           return (
             <li class="collection-item">
@@ -40,14 +39,6 @@ function Users() {
           )
         })}
       </ul>
-      <label>Email</label>
-      <input
-        onChange={e => setNewUser({ ...newUser, email: e.target.value })}
-      />
-      <label>Password</label>
-      <input
-        onChange={e => setNewUser({ ...newUser, password: e.target.value })}
-      />
       <label>First Name</label>
       <input
         onChange={e => setNewUser({ ...newUser, firstName: e.target.value })}
@@ -56,12 +47,13 @@ function Users() {
       <input
         onChange={e => setNewUser({ ...newUser, lastName: e.target.value })}
       />
-
-      <label> testing </label>
-
+      <label>Email</label>
       <input
-        placeholder='this is a placeholder'
-        onChange={(e) => setNewUser({ ...newUser, test: e.target.value })}
+        onChange={e => setNewUser({ ...newUser, email: e.target.value })}
+      />
+      <label>Password</label>
+      <input
+        onChange={e => setNewUser({ ...newUser, password: e.target.value })}
       />
       <Button onClick={() => createUser()}>Create User</Button>
     </div>
